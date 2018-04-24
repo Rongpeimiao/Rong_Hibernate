@@ -8,7 +8,13 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 import org.hibernate.annotations.GenericGenerator;
-
+/** 
+* @ClassName: PersonDao 
+* @Description: 用户dao
+* @author: 容培淼
+* @email:810209659@qq.com
+* 根据对象类
+*/
 @Entity
 @Table(name = "person3")  
 public class Person {
